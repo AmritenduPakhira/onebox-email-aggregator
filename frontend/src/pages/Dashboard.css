@@ -1,0 +1,50 @@
+
+.email-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+  }
+  
+  .email-item {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .email-item:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .email-item h5 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .email-item p {
+    margin-bottom: 5px;
+  }
+  
+  .email-item small {
+    color: #888;
+  }
+
+ 
+input[type="text"] {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #6c757d;
+  }
+  
+  
